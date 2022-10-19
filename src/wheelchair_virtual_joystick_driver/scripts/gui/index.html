@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <script type="text/javascript" src="js/roslib.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/throttle-debounce.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        
+        <script type="text/javascript" src="js/eventemitter2.min.js"></script>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+
+        <script type="text/javascript" src="js/nipple.js"></script>
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+        </style>
+
+    </head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10 header p5 bg-dark text-white text-center">
+                <h1>NoRMA <i class="fa-solid fa-wheelchair pr-4 pl-4 mb-2"></i></h1>
+            </div>
+            <div class="col-2 header p5 bg-dark text-white text-left">
+                <button type="button" class="btn btn-dark">
+                    <i class="fa-solid fa-computer pr-2"></i>
+                    Status: <span class="ml-2 connection-status badge badge-danger">Offline</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col p-1 panel panel-movement">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card mt-2">
+                                    <div class="card-header text-center">
+                                        <i class="fa-solid fa-up-down-left-right pr-2"></i>
+                                        Movement Control
+                                    </div>
+                                    <div class="card-body p-0 pt-3 pb-3">
+                                        <div id="zone_joystick" style="position: relative;"></div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/core.js"></script>
+</body>
+</html>
