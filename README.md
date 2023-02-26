@@ -19,7 +19,7 @@ NoRMA is designed around easy to acquire, cheap, off-the-shelf components and us
 # Referencing
 If you are using any of the code or documentation, please include a reference to the paper that presents this work, found [here](https://nottingham-repository.worktribe.com/index.php/output/13353050/nottingham-robotic-mobility-assistant-norma-an-affordable-diy-robotic-wheelchair-platform).
 
-L. C. Brand, A. Kucukyilmaz, "[Nottingham Robotic Mobility Assistant (NoRMA): An Affordable DIY Robotic Wheelchair Platform](https://nottingham-repository.worktribe.com/index.php/output/13353050/nottingham-robotic-mobility-assistant-norma-an-affordable-diy-robotic-wheelchair-platform)", in *UKRAS22 Conference: Robotics for Unconstrained Environments Proceedings*, Aberystwyth 2022.
+L. C. Brand, A. Kucukyilmaz, "[Nottingham Robotic Mobility Assistant (NoRMA): An Affordable DIY Robotic Wheelchair Platform](https://www.ukras.org.uk/publications/ras-proceedings/UKRAS22/pp50-51)", in *UKRAS22 Conference: Robotics for Unconstrained Environments Proceedings*, Aberystwyth 2022.
 
 
 # Installation
